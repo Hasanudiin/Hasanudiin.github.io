@@ -49,6 +49,13 @@ btnTraveloka.addEventListener('click', function () {
     tokped.style.display = "none";
 });
 
+btnTraveloka.addEventListener('click', function () { 
+    btnTraveloka.style.backgroundColor = "#334155";
+    btnTraveloka.style.color = "#38bdf8";
+
+    // traveloka.classList.toggle("on");
+})
+
 btnFreelance.addEventListener('click', function () {
     freelance.style.display = "block";
     traveloka.style.display = "none";
@@ -61,6 +68,4 @@ btnTokopedia.addEventListener('click', function () {
     tokped.style.display = "block";
 });
 
-const BtnExpenrience = document.getElementById("btn-experience");
-const experience = document.getElementById("experience");
 
