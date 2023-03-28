@@ -38,7 +38,7 @@
 }
 
 .check-experience{
-    @apply text-slate-300 block p-2 text-start focus:bg-slate-700 hover:text-sky-400 sm:text-2xl md:text-[16px] md:p-0 cursor-pointer px-3;
+    @apply text-slate-300 inline-block p-2 text-start focus:bg-slate-700 hover:text-sky-400 sm:text-2xl md:text-[16px] md:p-0 cursor-pointer px-3;
 }
 
 .id-experience{
