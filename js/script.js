@@ -49,12 +49,12 @@ btnTraveloka.addEventListener('click', function () {
     tokped.style.display = "none";
 });
 
-btnTraveloka.addEventListener('click', function () { 
-    btnTraveloka.style.backgroundColor = "#334155";
-    btnTraveloka.style.color = "#38bdf8";
+// btnTraveloka.addEventListener('click', function () { 
+//     btnTraveloka.style.backgroundColor = "#334155";
+//     btnTraveloka.style.color = "#38bdf8";
 
-    // traveloka.classList.toggle("on");
-})
+//     traveloka.classList.toggle("on");
+// })
 
 btnFreelance.addEventListener('click', function () {
     freelance.style.display = "block";
